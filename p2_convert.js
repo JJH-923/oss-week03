@@ -39,7 +39,7 @@
 import fs from "node:fs";
 import fsp from "node:fs/promises";
 
-const FILES = ["a.txt", "b.txt", "d.txt"];
+const FILES = ["a.txt", "b.txt", "c.txt"];
 
 // 파일 내용 → { lines, words }. 두 버전이 같이 쓴다. 건드릴 필요 없음.
 function stats(text) {
