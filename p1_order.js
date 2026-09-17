@@ -41,7 +41,7 @@ sleep(10).then(() => console.log("F"));
 
 console.log("G");
 
-// prediction:
-// actual:
-// why I was wrong (one line per miss):
+// prediction: AGCBDEF
+// actual:ADGCFEB
+// why I was wrong (one line per miss):async함수가 더 먼저 작동한다는 사실을 놓쳤다.
 //
